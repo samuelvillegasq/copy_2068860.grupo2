@@ -1,3 +1,7 @@
 Santiago Lopez 
 Maria camila Suarez durango
 Samuel Villegas Quintero
+
+Notas para el desarrollador:
+Las columnas Supercharge your workflow no caben en la misma fila
+Las logos de las empresas se están deformando, usar propiedad object-fit:contain
