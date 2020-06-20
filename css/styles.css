@@ -144,3 +144,27 @@ body{
 .descargar{
     margin-top: 45px;
 }
+/*Parte1 Mc*/
+.titulopart1{
+    font-size: 1.3em;
+    padding: 6px;
+    color: var(--grisTitulos);
+}
+.texopart1t{
+    font-size: 1em;
+    color: var(--gristexto);
+    margin-bottom: 40px;
+}
+.cajadetexto{
+    text-align: justify;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.contenidopart1{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+
+}
+
