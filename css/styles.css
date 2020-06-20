@@ -131,12 +131,14 @@ body{
     margin-top: 60px;
     margin-left: 20px;
     align-content: center;
+    
 }
 .logosMarcas img{
     padding: 40px;
     width: 190px;
     align-items: center;
     margin-left: 40px;
+    object-fit: contain;
 }
 /*descargar*/
 .descargar{
