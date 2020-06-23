@@ -5,3 +5,7 @@ Samuel Villegas Quintero
 Notas para el desarrollador:
 Las columnas Supercharge your workflow no caben en la misma fila
 Las logos de las empresas se están deformando, usar propiedad object-fit:contain
+
+Nuevos cambios:
+-Deben revisar que la primera sección es un poco más alta
+-Agrego unas capturas de pantalla de cómo se ve en una pantalla de escritorio más pequeña, deben corregir los cambios.
