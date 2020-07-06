@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>Frontend Mentor | Clipboard landing page</title>
@@ -21,17 +21,15 @@
           <button class="botonIos">Download for iOS</button>
           <button class="botonMac">Download for Mac</button>
         </div>
-        <h4 class="titulos"> Keep track of your snippets</h4>
-        <p class="parrafos"> Clipboard instantly stores any item you copy in the cloud, 
-          meaning you can access <br> your snippets immediately on all your 
-          devices. Our Mac and iOS apps will help you <br> organize everything.</p>
       </div>
       <!--home-->
     </article>
     <!--parte1mac-->
     <aside class="contenidopart1">
-      <div class="filas">
-        <img src="img/image-computer.png" alt="Mc" class="Mc1">
+      <h4 class="titulos"> Keep track of your snippets</h4>
+        <p class="parrafos"> Clipboard instantly stores any item you copy in the cloud, meaning you can access <br> your snippets immediately on all your devices. Our Mac and iOS apps will help you <br> organize everything.</p>
+      <div class="filas mac">
+        <div class="computador"><img src="img/image-computer.png" alt="Mc" class="Mc1"></div>
         <div class="cajadetexto">
           <h5 class="titulopart1"> Quick Search</h5>
           <p class="texopart1t">Easily search your snippets by content,<br> category, web address, application, and more.</p>
@@ -48,10 +46,9 @@
       <anside>
         <div>
           <h4 class="titulos">Access Clipboard anywhere</h4>
-          <p class="parrafos"> Whether you’re on the go, or at your computer, you can access all your Clipboard 
-            snippets in a few simple clicks.</p>
+          <p class="parrafos"> Whether you’re on the go, or at your computer, you can access all your Clipboard <br> snippets in a few simple clicks.</p>
         </div>
-        <div>
+        <div class="tablet" >
           <img src="img/image-devices.png" alt="celypc">
         </div>
       </anside>
@@ -62,28 +59,28 @@
       <h4 class="titulos"> Supercharge your workflow</h4>
       <p class="parrafos"> We’ve got the tools to boost your productivity.</p>
       <div class="filas cajas">
-        <div class="caja1">
+        <div class="servicio">
           <img src="img/icon-blacklist.svg" alt="lista">
           <h6 class="tituloServicios">Create blacklists</h6>
-          <p class="textoServicios" > Ensure sensitive information never makes its <br> way to your clipboard by excluding certain <br> sources.</p>
+          <p class="textoServicios" > Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
         </div>
-        <div class="caja2" >
+        <div class="servicio" >
           <img src="img/icon-text.svg" alt="texto">
           <h6 class="tituloServicios">Plain text snippets</h6>
-          <p class="textoServicios"> Remove unwanted formatting from copied text <br> for a consistent look.</p>
+          <p class="textoServicios"> Remove unwanted formatting from copied text for a consistent look.</p>
         </div>
-        <div class="caja3">
+        <div class="servicio">
           <img src="img/icon-preview.svg" alt="ver">
           <h6 class="tituloServicios">Sneak preview</h6>
-          <p class="textoServicios">Quick preview of all snippets on your Clipboard <br> for easy access.</p>
+          <p class="textoServicios">Quick preview of all snippets on your Clipboard for easy access.</p>
         </div>
-        <div class="filas logosMarcas">
-          <img src="img/logo-google.png" alt="google">
-          <img src="img/logo-ibm.png" alt="ibm">
-          <img src="img/logo-microsoft.png" alt="microsoft">
-          <img src="img/logo-hp.png" alt="hp">
-          <img src="img/logo-vector-graphics.png" alt="vector-graphics">
-        </div>
+      </div>
+      <div class="filas logosMarcas">
+        <img src="img/logo-google.png" alt="google">
+        <img src="img/logo-ibm.png" alt="ibm">
+        <img src="img/logo-microsoft.png" alt="microsoft">
+        <img src="img/logo-hp.png" alt="hp">
+        <img src="img/logo-vector-graphics.png" alt="vector-graphics">
       </div>
       <!--servicios-->
       <div class="descargar">
@@ -101,14 +98,16 @@
     <!--fotter-->
     <footer class="filas footer">
       <img src="img/logo.svg" alt="logo" class="logoFooter">
-     <div class="columnas cajanchor">
-        <div class="filas textofooter"> 
+     <div class="filas cajanchor">
+        <div class="columnas textofooter"> 
         <a href="#">FAQs</a>
         <a href="#">Contact Us</a>
-        <a href="#">Privacy Policy</a>
       </div>
-      <div class="filas textofooter">
+      <div class="columnas textofooter">
+        <a href="#">Privacy Policy</a>
         <a href="#">Press Kit</a>
+      </div>
+      <div class="columnas textofooter">
         <a href="#">Install Guide</a>
       </div>
      </div>
